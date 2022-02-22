@@ -1,7 +1,9 @@
 import React, { useReducer } from 'react';
 
 const Counter = () => {
+  // set initial state
   const initialState = 0;
+  // implement reducer function
   const reducer = (state, action) => {
     switch (action.type) {
       case 'add':
@@ -14,8 +16,10 @@ const Counter = () => {
         return new Error();
     }
   };
+  // write useReducer
   const [state, dispatch] = useReducer(reducer, initialState);
 
+  // display state in component and trigger dispatch with buttons
   return (
     <div>
       <h3>Counter</h3>
