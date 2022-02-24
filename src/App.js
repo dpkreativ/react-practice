@@ -1,10 +1,10 @@
 import './App.css';
-import Restaurant from './ReactConcepts/useReducer/Restaurant';
+import SmartHome from './ReactConcepts/useReducer/SmartHome';
 
 function App() {
   return (
     <div>
-      <Restaurant />
+      <SmartHome />
     </div>
   );
 }
