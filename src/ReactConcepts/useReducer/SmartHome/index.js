@@ -52,9 +52,23 @@ const SmartHome = () => {
           <div key={idx} className="card">
             <h2>{appliance.name}</h2>
             {appliance.active ? (
-              <div className="status active">Active</div>
+              <button
+                className="status active"
+                onClick={() =>
+                  dispatch({ type: 'deactivate', payload: appliance.name })
+                }
+              >
+                Active
+              </button>
             ) : (
-              <div className="status inactive">Not active</div>
+              <button
+                className="status inactive"
+                onClick={() =>
+                  dispatch({ type: 'activate', payload: appliance.name })
+                }
+              >
+                Not active
+              </button>
             )}
           </div>
         ))}
