@@ -1,10 +1,10 @@
 import './App.css';
-import SmartHome from './ReactConcepts/useReducer/SmartHome';
+import ShoppingCart from './ReactConcepts/useReducer/ShoppingCart';
 
 function App() {
   return (
     <div>
-      <SmartHome />
+      <ShoppingCart />
     </div>
   );
 }
