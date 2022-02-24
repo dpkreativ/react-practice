@@ -17,10 +17,11 @@
 }
 
 .status {
-  padding: 5px;
+  padding: 5px 20px;
+  width: max-content;
   color: white;
   border-radius: 50px;
-  text-align: center;
+  border: none;
 }
 
 .active {
