@@ -1,10 +1,10 @@
 import './App.css';
-import Counter from './ReactConcepts/useReducer/Counter';
+import Restaurant from './ReactConcepts/useReducer/Restaurant';
 
 function App() {
   return (
     <div>
-      <Counter />
+      <Restaurant />
     </div>
   );
 }
