@@ -11,6 +11,11 @@
   gap: 10px;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
 .card {
   padding: 10px;
   border: 2px solid black;
