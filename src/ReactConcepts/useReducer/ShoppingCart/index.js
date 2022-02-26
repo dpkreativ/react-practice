@@ -8,6 +8,7 @@ const ShoppingCart = () => {
 
   const reducer = (state, action) => {
     switch (action.type) {
+      // Let users add items to cart
       case 'add':
         let updatedState = {
           ...state,
@@ -15,12 +16,14 @@ const ShoppingCart = () => {
         };
         state.input = '';
         return updatedState;
+      // Let users delete items they don't need
       case 'delete':
         let filteredState = {
           ...state,
           items: [...state.items].filter((x) => x.id !== action.payload),
         };
         return filteredState;
+      // Let users create input
       case 'input':
         return {
           ...state,
