@@ -1,10 +1,10 @@
 import './App.css';
-import ShoppingCart from './ReactConcepts/useReducer/ShoppingCart';
+import RenderRectangle from './ReactConcepts/useLayoutEffect/RenderRectangle';
 
 function App() {
   return (
     <div>
-      <ShoppingCart />
+      <RenderRectangle />
     </div>
   );
 }
