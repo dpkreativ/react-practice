@@ -12,7 +12,7 @@ const RenderRectangle = () => {
   }, [display]);
 
   return (
-    <div>
+    <div style={{ width: '100%', maxWidth: '800px', margin: 'auto' }}>
       <h1>useLayoutEffect - Render Rectangle</h1>
       <div>
         <button

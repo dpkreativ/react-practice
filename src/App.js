@@ -1,5 +1,5 @@
 import './App.css';
-import RenderRectangle from './ReactConcepts/useLayoutEffect/RenderRectangle';
+import RenderRectangle from './ReactConcepts/UseLayoutEffect/RenderRectangle';
 
 function App() {
   return (
